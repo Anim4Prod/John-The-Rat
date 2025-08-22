@@ -1,0 +1,33 @@
+{
+    "name": "JOHN THE RAT",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "animation": "*",
+        "sprite-scaling": "*",
+        "browser-events": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
